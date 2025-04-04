@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TAREA2</string>
+    <string name="instrucciones">Adivina el número del dado (1 al 6):</string>
+    <string name="lanzar_dado">Lanzar dado</string>
+    <string name="hint_predic">Ingresa un número</string>
+    <string name="imagen_dado">Imagen del dado</string>
+</resources>

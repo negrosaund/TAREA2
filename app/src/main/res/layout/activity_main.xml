@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/Instrucciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="yes"
+        android:text="@string/instrucciones"
+        android:textSize="20dp"/>
+
+    <ImageView
+        android:id="@+id/dado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/imagen_dado" />
+
+
+    <EditText
+        android:id="@+id/Predic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:hint="@string/hint_predic"
+        android:autofillHints="username"
+        android:importantForAccessibility="yes" />
+
+    <Button
+        android:id="@+id/btnLanzar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="yes"
+        android:text="@string/lanzar_dado" />
+
+    <TextView
+        android:id="@+id/Resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="yes"
+        android:paddingTop="20dp"
+        android:text=""
+        android:textSize="20sp" />
+</LinearLayout>
